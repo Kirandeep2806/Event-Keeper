@@ -2,10 +2,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className='m-8'>
-      <button className="bg-secondary-200 text-secondary-100 font-mono text-xl px-10 py-10 rounded hover:bg-secondary-300">
-        Click Me!!
-      </button>
+    <div>
+      <div className='flex justify-end bg-indigo-600 text-white text-lg'>
+        <ul className='flex my-3'>
+          <li className='mr-6 cursor-pointer'>About</li>
+          <li className='mr-6 cursor-pointer'>Projects</li>
+          <li className='mr-6 cursor-pointer'>Accomplishments</li>
+          <li className='mr-6 cursor-pointer'>Contact Me</li>
+        </ul>
+      </div>
     </div>
   );
 }
